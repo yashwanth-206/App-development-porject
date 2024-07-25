@@ -1,0 +1,47 @@
+.Navbar_main{
+    border: 2px solid black;
+    height: 100px;
+    width:auto;
+    /* position: fixed; */
+    display: flex;
+    justify-content: right;
+    /* background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);; */
+    background-color: #4CAF50; /* Primary Color */
+    text-align: center;
+    z-index: 2000;    
+}
+.Navbar_main h1{
+    color: #FFFFFF; /* Button Text Color */
+    text-align: center;
+    position: absolute;
+    left: 630px;
+    font-family: cursive;
+    font-size: 35px;
+    color: white;
+    
+}
+.Navbar_main select{
+    background-color: #FFC107; /* Secondary Color */
+    color: #333333; /* Text Color */
+    margin-top:20px ;
+    margin-right: 20px;
+    height:40px;
+    border: none;
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+}
+.Navbar_main button {
+
+    background-color: #FFC107; /* Secondary Color */
+    color: #333333; /* Text Color */
+    margin-top:20px ;
+    margin-right: 20px;
+    height:40px;
+    border: none;
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+}
