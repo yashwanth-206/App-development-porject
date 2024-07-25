@@ -1,0 +1,40 @@
+.Navbar_main{
+    border: 2px solid black;
+    height: 100px;
+    width:100%;
+    /* position: fixed; */
+    display: flex;
+    justify-content: right;
+    background-color: #AAD6EC;
+    text-align: center;
+    z-index: 2000;    
+}
+.Navbar_main h1{
+    text-align: center;
+    position: absolute;
+    left: 45%;
+    font-family: cursive;
+    font-size: 35px;
+    
+}
+.Navbar_main select{
+    margin-top:20px ;
+    margin-right: 20px;
+    height:40px;
+    border: none;
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+}
+.Navbar_main button {
+
+    margin-top:20px ;
+    margin-right: 20px;
+    height:40px;
+    border: none;
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+}

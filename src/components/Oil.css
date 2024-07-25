@@ -1,0 +1,9 @@
+.oil_image
+{
+   margin-left: 8%;
+    border: 2px solid black;
+   width: 80%;
+   height: 50vh;
+   background-image: url("D:\App development\loginapp\Oil image.webp");
+   background-repeat: no-repeat;
+}
