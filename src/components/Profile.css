@@ -1,0 +1,91 @@
+/* Profile.css */
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f9;
+  }
+  
+  .profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    /* background-color: #f4f4f9; */
+  }
+  
+  .profile-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    max-width: 90%;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .profile-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .profile-edit {
+    margin: 20px 0;
+  }
+  
+  .profile-edit h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .profile-edit input {
+    width: calc(100% - 40px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  .profile-edit button {
+    width: calc(100% - 40px);
+    padding: 10px;
+    background-color: #433D8B; /* Primary Color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .profile-edit button:hover {
+    background-color: #5a52a3;
+  }
+  
+  .logout-button {
+    width: calc(100% - 40px);
+    padding: 10px;
+    background-color: #FF5733; /* Logout Button Color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .logout-button:hover {
+    background-color: #ff7b66;
+  }
+  
+  @media (max-width: 500px) {
+    .profile-card {
+      padding: 10px;
+    }
+  
+    .profile-edit input,
+    .profile-edit button,
+    .logout-button {
+      width: calc(100% - 20px);
+    }
+  }
+  
